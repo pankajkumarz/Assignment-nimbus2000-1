@@ -102,6 +102,23 @@ my-app/
 - 📱 Native mobile applications
   
 # 🚀 Complete Setup Script
+# Prerequisites
+
+## System Requirements
+
+### Operating System
+- **Windows** 10 or later
+- **macOS** 10.14 or later
+- **Linux** (Ubuntu 16.04+, CentOS 7+, or similar distributions)
+
+### Node.js & npm
+- **Node.js** version 14.0.0 or higher
+- **npm** version 6.0.0 or higher (comes bundled with Node.js)
+
+#### Check if installed:
+```bash
+node --version
+npm --version
 ## For Linux/macOS:
 # Clone the project (if using git)
 ```
