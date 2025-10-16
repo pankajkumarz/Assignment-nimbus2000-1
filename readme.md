@@ -8,28 +8,52 @@
 ```
 
 server/
-├──models/           # MongoDB data models
-├──node_modules/     # Dependencies
-├──routes/           # API route handlers
-├──uploads/          # Image upload storage
-├──test-db.js        # Database testing utilities
-├──.env              # Environment variables
-├──package-lock.json # Dependency lock file
-├──package.json      # Project dependencies
-└──server.js         # Main server entry point
+├── models/
+│ └── Report.js # Data models/schemas
+├── routes/
+│ └── reports.js # API route handlers
+├── uploads/ # File storage directory
+│ ├── 1760508119940-640915461.jpg
+│ └── 1760513244103-988943558.jpg
+├── node_modules/ # Dependencies
+├── test-db.js # Database testing utilities
+├── .env # Server environment variables
+├── package-lock.json # Dependency lock file
+├── package.json # Backend dependencies
+└── server.js # Main server entry point
 
 ```
+
+# City Care Project Structure
+
+## Project Overview
+City Care is a full-stack web application for citizen reporting and municipal management with React.js frontend and Node.js backend.
 
 ## Frontend Structure (`my-app/`)
 ```
-
 my-app/
-└──src/
-├── pages/
-│   ├── reportsubmit/     # Citizen report submission page
-│   └── admindashboard/   # Administrative dashboard
-└── ... (other React components)
-
+├── public/ # Static assets
+├── src/
+│ ├── components/
+│ │ └── common/ # Reusable components
+│ │ ├── CommonPages.js
+│ │ ├── Navbar.css
+│ │ └── Navbar.js
+│ ├── pages/ # Main application pages
+│ │ ├── AdminDashboard.css
+│ │ ├── AdminDashboard.js
+│ │ ├── CitizenPortal.css
+│ │ └── CitizenPortal.js
+│ ├── socket/ # Real-time communication
+│ ├── App.css # Main application styles
+│ ├── App.js # Root React component
+│ ├── firebase.js # Firebase configuration
+│ ├── index.css # Global styles
+│ └── index.js # Application entry point
+├── .env # Environment variables
+├── .gitignore # Git ignore rules
+├── package-lock.json # Dependency lock file
+└── package.json # Frontend dependencies
 ```
 
 ## Technology Stack
