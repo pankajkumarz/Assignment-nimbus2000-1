@@ -104,25 +104,37 @@ my-app/
 # 🚀 Complete Setup Script
 ## For Linux/macOS:
 # Clone the project (if using git)
+```
 git clone <repository-url>
+```
+```
 cd city-care-project
-
+```
 # Setup frontend
+```
 cd my-app
+```
+```
 npm install
+```
+```
 cd ..
+```
 
 # Setup backend
+```
 cd server
+```
+
+```
 npm install
+```
+
+```
 cd ..
-
-echo "Setup complete! Follow these steps to run:"
-echo "1. Start backend: cd server && npm run dev"
-echo "2. Start frontend: cd my-app && npm start"
-
+```
 ## For Windows:
-
+```
 @echo off
 :: Clone the project (if using git)
 git clone <repository-url>
@@ -137,58 +149,78 @@ cd ..
 cd server
 npm install
 cd ..
-
-echo Setup complete! Follow these steps to run:
-echo 1. Start backend: cd server && npm run dev
-echo 2. Start frontend: cd my-app && npm start
-
+```
 ## Alternative Windows PowerShell Script:
 
 # Clone the project (if using git)
+```
 git clone <repository-url>
-cd city-care-project
-
+```
+```
+ls
+```
+```
+cd Directory
+```
 # Setup frontend
+```
 cd my-app
+```
+```
 npm install
+```
+```
 cd ..
-
+```
 # Setup backend
+```
 cd server
+```
+```
 npm install
+```
+```
 cd ..
-
-Write-Host "Setup complete! Follow these steps to run:"
-Write-Host "1. Start backend: cd server && npm run dev"
-Write-Host "2. Start frontend: cd my-app && npm start"
+```
 
 ## 🛠️ Manual Setup Steps:
 ### 1. Frontend Setup
-
-cd my-app
-npm install
-
-### 2. Backend Setup
-
+```
 cd server
+```
+
+```
 npm install
+```
+### 2. Backend Setup
+```
+cd server
+```
+
+```
+npm install
+```
 
 ### 3. Running the Application
 
 #### Terminal 1 - Start Backend
-
+```
 cd server
+```
+
+```
 npm run dev
-
+```
 #### Terminal 2 - Start Frontend  
-
+```
 cd my-app
+```
+```
 npm start
-
----
+```
 
 **Team Nimbus2000**  
 *Rayat Bahra Professional University Hackathon*  
 *October 15, 2025*
-```
+
 
