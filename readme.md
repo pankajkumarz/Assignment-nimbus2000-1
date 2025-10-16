@@ -116,9 +116,11 @@ my-app/
 - **npm** version 6.0.0 or higher (comes bundled with Node.js)
 
 #### Check if installed:
-```bash
+```
 node --version
 npm --version
+```
+
 ## For Linux/macOS:
 # Clone the project (if using git)
 ```
