@@ -105,41 +105,57 @@ my-app/
 ## For Linux/macOS:
 ---
 # Clone the project (if using git)
+```
+```
 git clone <repository-url>
 cd city-care-project
+```
 
 # Setup frontend
+```
 cd my-app
 npm install
 cd ..
+```
 
-# Setup backend  
+# Setup backend
+``` 
 cd server
 npm install
 cd ..
+```
 
-echo "Setup complete! Follow these steps to run:"
-echo "1. Start backend: cd server && npm run dev"
-echo "2. Start frontend: cd my-app && npm start"
+- echo "Setup complete! Follow these steps to run:"
+- echo "1. Start backend: cd server && npm run dev"
+- echo "2. Start frontend: cd my-app && npm start"
 ---
-## For Window 
+## For Window
+
 # Clone the project (if using git)
+```
+```
 git clone <repository-url>
 cd city-care-project
+```
 
 # Setup frontend
+```
 cd my-app
 npm install
 cd ..
+```
 
 # Setup backend
+```
 cd server  
 npm install
 cd ..
 
-echo "Setup complete! Follow these steps to run:"
-echo "1. Start backend: cd server && npm run dev"
-echo "2. Start frontend: cd my-app && npm start"
+```
+
+-echo "Setup complete! Follow these steps to run:"
+-echo "1. Start backend: cd server && npm run dev"
+-echo "2. Start frontend: cd my-app && npm start"
 ---
 
 **Team Nimbus2000**  
