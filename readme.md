@@ -56,32 +56,33 @@ my-app/
 └── package.json # Frontend dependencies
 ```
 
-## Technology Stack
-
-### Frontend
-- **React.js** - Component-based, interactive UI
-- **React Router** - Client-side navigation
-- **React Leaflet** - Interactive map interface
-- **Firebase Auth** - Secure user authentication
-
-### Backend
-- **Node.js & Express** - REST API development
-- **MongoDB & Mongoose** - NoSQL data storage
-- **Hugging Face** - AI image classification
-- **Multer** - Local image upload handling
 
 ## Key Features
 
-### Citizen Portal
-- 📝 Intuitive reporting interface (under 60 seconds)
-- 📸 Advanced media capture (gallery upload & live camera)
-- 📍 Precision location services (GPS & interactive maps)
+### Frontend Components
+- **CommonPages**: Shared page components
+- **Navbar**: Navigation component with styling
+- **AdminDashboard**: Administrative interface for city officials
+- **CitizenPortal**: Public interface for citizen reporting
 
-### Admin Dashboard
-- 🗺️ Map view for geographical issue distribution
-- 📋 List view for report management
-- 📊 Advanced analytics and reporting
-- 🔧 Seamless workflow management
+### Backend Architecture
+- **REST API**: Express.js routes for report management
+- **File Uploads**: Image handling system for report attachments
+- **Database Models**: Structured data schemas for reports
+- **Real-time Features**: Socket.io integration for live updates
+
+### Technology Stack
+- **Frontend**: React.js with CSS styling
+- **Backend**: Node.js with Express.js
+- **File Storage**: Local uploads directory
+- **Real-time**: Socket.io implementation
+- **Environment**: Configuration via .env files
+
+## Application Flow
+1. **Citizens** submit reports with images via CitizenPortal
+2. **Files** are uploaded to server/uploads directory
+3. **Administrators** manage reports via AdminDashboard via Login credentials
+4. **Real-time updates** facilitated through socket communication
 
 ## AI-Powered Innovation
 - **Automatic Classification**: AI identifies potholes, garbage, and other civic issues
@@ -99,7 +100,46 @@ my-app/
 - 🏆 Citizen gamification and rewards
 - 🔗 Municipal ERP integration
 - 📱 Native mobile applications
+  
+# Complete Setup Script
+## For Linux/macOS:
+---
+# Clone the project (if using git)
+git clone <repository-url>
+cd city-care-project
 
+# Setup frontend
+cd my-app
+npm install
+cd ..
+
+# Setup backend  
+cd server
+npm install
+cd ..
+
+echo "Setup complete! Follow these steps to run:"
+echo "1. Start backend: cd server && npm run dev"
+echo "2. Start frontend: cd my-app && npm start"
+---
+## For Window 
+# Clone the project (if using git)
+git clone <repository-url>
+cd city-care-project
+
+# Setup frontend
+cd my-app
+npm install
+cd ..
+
+# Setup backend
+cd server  
+npm install
+cd ..
+
+echo "Setup complete! Follow these steps to run:"
+echo "1. Start backend: cd server && npm run dev"
+echo "2. Start frontend: cd my-app && npm start"
 ---
 
 **Team Nimbus2000**  
